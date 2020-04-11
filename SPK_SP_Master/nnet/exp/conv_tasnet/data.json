@@ -1,0 +1,19 @@
+{
+    "train": {
+        "mix_scp": "nnet/data/tr/mix.scp",
+        "ref_scp": [
+            "nnet/data/tr/spk1.scp",
+            "nnet/data/tr/spk2.scp"
+        ],
+        "sample_rate": 8000
+    },
+    "dev": {
+        "mix_scp": "nnet/data/cv/mix.scp",
+        "ref_scp": [
+            "nnet/data/cv/spk1.scp",
+            "nnet/data/cv/spk2.scp"
+        ],
+        "sample_rate": 8000
+    },
+    "chunk_size": 32000
+}

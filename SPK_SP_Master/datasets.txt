@@ -1,0 +1,73 @@
+VOICES:
+
+vctk
+libri
+audio_speech_actors
+timit
+
+
+NOISE:
+
+musan
+wham
+urbansound8k
+soundclas
+
+OTHER:
+
+#  64% train, 16% dev, and 20% test
+
+TESTING:
+ami
+some of dirha
+
+TRAINING
+
+audio_speech_actors:
+tr --> 2000
+cv --> 320
+tt --> 800
+total: 3120
+
+timit:
+tr --> 7000
+cv --> 1120
+tt --> 2800
+total: 10920
+
+vctk:
+tr --> 15000
+cv --> 2400
+tt --> 6000
+total: 23400
+
+libri:
+tr --> 126000
+cv --> 20160
+tt --> 50400
+total: 196560
+
+TOTALS:
+length --> 4 seconds
+mixtures --> 234000
+files --> 936000
+mixture-time --> (234000*4)/3600 = 260 hours
+total-time --> ((936000*4)*4)/3600 = 4160 hours
+spks --> 3
+datasets --> 4
+
+eval  - 36000 batches - 20min
+train - 
+
+#  64% train, 16% dev, and 20% test
+
+a_libri
+
+tr --> 2002
+cv --> 500
+tt --> 625
+total: 3127
+
+a_mix
+
+..

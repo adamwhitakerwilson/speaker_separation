@@ -1,0 +1,12 @@
+epochs: 1
+lr: 1e-3
+max_norm: 5
+batch_size: 2
+n_workers: 2
+n_train: 1
+n_test: 70560
+composer_conf_path: config/composer/default.yaml
+saving_path: result
+exp_name: default
+saving_rate: 1
+pit: false
